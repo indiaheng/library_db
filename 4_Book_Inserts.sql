@@ -1,4 +1,4 @@
-use library;
+use library1;
 
 insert into book(title, genre_id)
 values ('To The Lighthouse', 1), 

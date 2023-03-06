@@ -1,4 +1,4 @@
-use library;
+use library1;
 
 insert into author(firstname, lastname)
 values ('J.K.', 'Rowling'), 
@@ -6,3 +6,7 @@ values ('J.K.', 'Rowling'),
 
 select *
 from author;
+
+insert into author(firstname, lastname)
+values ('Jacqueline', 'Wilson'), 
+('Charles', 'Dickins'),('William', 'Shakespeare');
